@@ -23,7 +23,7 @@ export default function SignupScreen() {
         onChangeText={userPassword => setPassword(userPassword)}
         secureTextEntry={true}
       />
-      {/* <FormButton buttonTitle='Signup' onPress={() => alert('sign button')} /> */}
+      <FormButton buttonTitle='Signup' theme="primary" icon="sign-in" onPress={() => alert('sign button')} /> 
     </View>
   );
 }

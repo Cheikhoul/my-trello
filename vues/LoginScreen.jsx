@@ -33,7 +33,7 @@ export default function LoginScreen({ navigation }) {
             onChangeText={userPassword => setPassword(userPassword)}
             secureTextEntry={true}
           />
-          <FormButton buttonTitle='Login' onPress={() => alert('login button')} />
+          <FormButton buttonTitle='Login' theme="primary" icon="pencil-square-o" onPress={() => alert('login button')} />
           <TouchableOpacity
             style={styles.navButton}
             onPress={() => navigation.navigate('Signup')}
