@@ -12,7 +12,7 @@ export default function App() {
     <>
        <NavigationContainer>
             <Tab.Navigator>
-                <Tab.Screen name="LoginScreen" component={LoginScreen} />
+                <Tab.Screen name="Login" component={LoginScreen} />
                 <Tab.Screen name="Signup" component={SignupScreen} />
             </Tab.Navigator>
         </NavigationContainer>
@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     flex: 1,
-    paddingTop: 58,    
+    paddingTop: 58,  
+    backgroundColor: '#fff',
   },
   footerContainer: {
     flex: 1 / 3,
